@@ -1,0 +1,5 @@
+"This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below: 
+
+Vosk
+Apache License 2.0
+https://alphacephei.com/vosk/
