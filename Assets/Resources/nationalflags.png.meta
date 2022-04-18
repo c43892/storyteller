@@ -1,0 +1,2568 @@
+fileFormatVersion: 2
+guid: 8468ea2079a51be40baf8289e9e851aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5571062580097577563
+    second: nationalflags_0
+  - first:
+      213: -1737466553107568946
+    second: nationalflags_1
+  - first:
+      213: 4571047363450855448
+    second: nationalflags_2
+  - first:
+      213: -1326447464527493389
+    second: nationalflags_3
+  - first:
+      213: -50340298963136383
+    second: nationalflags_4
+  - first:
+      213: -2755774713003881295
+    second: nationalflags_5
+  - first:
+      213: -5317487589781921293
+    second: nationalflags_6
+  - first:
+      213: -6229975843263347658
+    second: nationalflags_7
+  - first:
+      213: 3887721509588107345
+    second: nationalflags_8
+  - first:
+      213: 6209280265833553234
+    second: nationalflags_9
+  - first:
+      213: 8577761409802876609
+    second: nationalflags_10
+  - first:
+      213: -6746748703020543390
+    second: nationalflags_11
+  - first:
+      213: 2789992231067979195
+    second: nationalflags_12
+  - first:
+      213: 5125475789267784317
+    second: nationalflags_13
+  - first:
+      213: 3316392785460390181
+    second: nationalflags_14
+  - first:
+      213: -4166065411914784512
+    second: nationalflags_15
+  - first:
+      213: -1943389925437626182
+    second: nationalflags_16
+  - first:
+      213: -252121692539432708
+    second: nationalflags_17
+  - first:
+      213: -5235249373454330489
+    second: nationalflags_18
+  - first:
+      213: 5390531721249841590
+    second: nationalflags_19
+  - first:
+      213: 6114209494732738068
+    second: nationalflags_20
+  - first:
+      213: -4135020739358473652
+    second: nationalflags_21
+  - first:
+      213: 6379837946807175477
+    second: nationalflags_22
+  - first:
+      213: 1286694811314663878
+    second: nationalflags_23
+  - first:
+      213: -94999039802056250
+    second: nationalflags_24
+  - first:
+      213: 3656910063607967851
+    second: nationalflags_25
+  - first:
+      213: 4398942676442480973
+    second: nationalflags_26
+  - first:
+      213: -104729010285322344
+    second: nationalflags_27
+  - first:
+      213: 1635976842867081266
+    second: nationalflags_28
+  - first:
+      213: -3428304598181853258
+    second: nationalflags_29
+  - first:
+      213: -3938106538114164422
+    second: nationalflags_30
+  - first:
+      213: 661917095047761048
+    second: nationalflags_31
+  - first:
+      213: 2693979450898176242
+    second: nationalflags_32
+  - first:
+      213: -6485969721623031184
+    second: nationalflags_33
+  - first:
+      213: -5392713091746190622
+    second: nationalflags_34
+  - first:
+      213: -4315107068897888551
+    second: nationalflags_35
+  - first:
+      213: -5483628990529471696
+    second: nationalflags_36
+  - first:
+      213: 8100816564201352755
+    second: nationalflags_37
+  - first:
+      213: -3374384407010439485
+    second: nationalflags_38
+  - first:
+      213: 1961195414419739016
+    second: nationalflags_39
+  - first:
+      213: -2477867253381086300
+    second: nationalflags_40
+  - first:
+      213: -2333203910487619270
+    second: nationalflags_41
+  - first:
+      213: -5389170188227642652
+    second: nationalflags_42
+  - first:
+      213: 2085628588063611787
+    second: nationalflags_43
+  - first:
+      213: 7675832154403187125
+    second: nationalflags_44
+  - first:
+      213: -6466553716679427991
+    second: nationalflags_45
+  - first:
+      213: 8844385301338904648
+    second: nationalflags_46
+  - first:
+      213: 2247397708176899796
+    second: nationalflags_47
+  - first:
+      213: 749998534828710360
+    second: nationalflags_48
+  - first:
+      213: 6229825663803885531
+    second: nationalflags_49
+  - first:
+      213: 6202522834286368891
+    second: nationalflags_50
+  - first:
+      213: -6923260522476920949
+    second: nationalflags_51
+  - first:
+      213: -750631941853970577
+    second: nationalflags_52
+  - first:
+      213: 1026059080421730121
+    second: nationalflags_53
+  - first:
+      213: 8457117624565393679
+    second: nationalflags_54
+  - first:
+      213: 2695517509979748709
+    second: nationalflags_55
+  - first:
+      213: 8630644617876385796
+    second: nationalflags_56
+  - first:
+      213: 7007384939900235970
+    second: nationalflags_57
+  - first:
+      213: 5979557914439941161
+    second: nationalflags_58
+  - first:
+      213: 7214096581624086377
+    second: nationalflags_59
+  - first:
+      213: -6404883885493671653
+    second: nationalflags_60
+  - first:
+      213: -4830815492241157138
+    second: nationalflags_61
+  - first:
+      213: 2063555049826465208
+    second: nationalflags_62
+  - first:
+      213: -7211853419827155484
+    second: nationalflags_63
+  - first:
+      213: 2496831836889671860
+    second: nationalflags_64
+  - first:
+      213: -3958800645982751988
+    second: nationalflags_65
+  - first:
+      213: 9111572895588164998
+    second: nationalflags_66
+  - first:
+      213: -5402518935606943744
+    second: nationalflags_67
+  - first:
+      213: 381393477532056143
+    second: nationalflags_68
+  - first:
+      213: 2270541537664148881
+    second: nationalflags_69
+  - first:
+      213: -7672415842628959132
+    second: nationalflags_70
+  - first:
+      213: -6506429686395787638
+    second: nationalflags_71
+  - first:
+      213: -2126637680946370981
+    second: nationalflags_72
+  - first:
+      213: -5727986099377300377
+    second: nationalflags_73
+  - first:
+      213: 3033832242081360563
+    second: nationalflags_74
+  - first:
+      213: 3800058305778100812
+    second: nationalflags_75
+  - first:
+      213: 2272862368237003793
+    second: nationalflags_76
+  - first:
+      213: 8393196443652174486
+    second: nationalflags_77
+  - first:
+      213: 6253926900423089133
+    second: nationalflags_78
+  - first:
+      213: 8502790445866258107
+    second: nationalflags_79
+  - first:
+      213: 6499484665089437705
+    second: nationalflags_80
+  - first:
+      213: -2074377505838148270
+    second: nationalflags_81
+  - first:
+      213: 9378403460137280
+    second: nationalflags_82
+  - first:
+      213: -4358680371917840303
+    second: nationalflags_83
+  - first:
+      213: 7226187827602779766
+    second: nationalflags_84
+  - first:
+      213: 3898588335867023783
+    second: nationalflags_85
+  - first:
+      213: -2982958720397142278
+    second: nationalflags_86
+  - first:
+      213: -5045221278082724043
+    second: nationalflags_87
+  - first:
+      213: -7448585902978983411
+    second: nationalflags_88
+  - first:
+      213: -5521380645853975219
+    second: nationalflags_89
+  - first:
+      213: 1508607085028294818
+    second: nationalflags_90
+  - first:
+      213: -99797227824947561
+    second: nationalflags_91
+  - first:
+      213: -9210628971456111934
+    second: nationalflags_92
+  - first:
+      213: 7069762909237495741
+    second: nationalflags_93
+  - first:
+      213: 7402252240473581974
+    second: nationalflags_94
+  - first:
+      213: 8196446297058718434
+    second: nationalflags_95
+  - first:
+      213: -315615349563343365
+    second: nationalflags_96
+  - first:
+      213: 2804456903879943831
+    second: nationalflags_97
+  - first:
+      213: -1587109396913902206
+    second: nationalflags_98
+  - first:
+      213: -5228243027008239278
+    second: nationalflags_99
+  - first:
+      213: 4702500995828325699
+    second: nationalflags_100
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nationalflags_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 947
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52ff2c56e3605d40800000000000000
+      internalID: 5571062580097577563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 948
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6a6ec106743e7e0800000000000000
+      internalID: -1737466553107568946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 947
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81069fdcb5f9f6f30800000000000000
+      internalID: 4571047363450855448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 947
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f60f9f0f03879de0800000000000000
+      internalID: -1326447464527493389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 948
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1805a6ac3c72d4ff0800000000000000
+      internalID: -50340298963136383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 947
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc466ecf7581c9d0800000000000000
+      internalID: -2755774713003881295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 948
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12089d53d7436b0800000000000000
+      internalID: -5317487589781921293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_7
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 948
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63406077afdaa89a0800000000000000
+      internalID: -6229975843263347658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_8
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 948
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15005ac6d16f3f530800000000000000
+      internalID: 3887721509588107345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_9
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 948
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d1adbe08bcb2650800000000000000
+      internalID: 6209280265833553234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6ba572e845a0770800000000000000
+      internalID: 8577761409802876609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26212a7eccbbe52a0800000000000000
+      internalID: -6746748703020543390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd08e2f62b08b620800000000000000
+      internalID: 2789992231067979195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_13
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72db2c0319512740800000000000000
+      internalID: 5125475789267784317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_14
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529e809daa1360e20800000000000000
+      internalID: 3316392785460390181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_15
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00127c3a4992f26c0800000000000000
+      internalID: -4166065411914784512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_16
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8a73ac821b705e0800000000000000
+      internalID: -1943389925437626182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_17
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0540c08a8408cf0800000000000000
+      internalID: -252121692539432708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_18
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7851ba0be68a857b0800000000000000
+      internalID: -5235249373454330489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 845
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1629b4a040fca40800000000000000
+      internalID: 5390531721249841590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 748
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e8dd714290ad450800000000000000
+      internalID: 6114209494732738068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c424aabbb847d96c0800000000000000
+      internalID: -4135020739358473652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_22
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539cfff8fccb98850800000000000000
+      internalID: 6379837946807175477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_23
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1bfba1d124bd110800000000000000
+      internalID: 1286694811314663878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_24
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 746
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1689a60ee7eaef0800000000000000
+      internalID: -94999039802056250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6077e4e354ffb230800000000000000
+      internalID: 3656910063607967851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_26
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4109a0ce0f2c0d30800000000000000
+      internalID: 4398942676442480973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_27
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd340258deb8ef0800000000000000
+      internalID: -104729010285322344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_28
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2308bd3554824b610800000000000000
+      internalID: 1635976842867081266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_29
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 747
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b74883c1273c60d0800000000000000
+      internalID: -3428304598181853258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39df04f7f80959c0800000000000000
+      internalID: -3938106538114164422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_31
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c8419471a9f2900800000000000000
+      internalID: 661917095047761048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8dcfa8900f26520800000000000000
+      internalID: 2693979450898176242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07258bef6e43df5a0800000000000000
+      internalID: -6485969721623031184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_34
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaaedec30c3925b0800000000000000
+      internalID: -5392713091746190622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_35
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d67096bbf8ad14c0800000000000000
+      internalID: -4315107068897888551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_36
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf4739c7c36e3b0800000000000000
+      internalID: -5483628990529471696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_37
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e62d3ceb1eb6070800000000000000
+      internalID: 8100816564201352755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_38
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce86849247cb21d0800000000000000
+      internalID: -3374384407010439485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_39
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 652
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8811d9ba6d0973b10800000000000000
+      internalID: 1961195414419739016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3c5a18cd8dc9dd0800000000000000
+      internalID: -2477867253381086300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_41
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3945deb76bce9fd0800000000000000
+      internalID: -2333203910487619270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_42
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf0905442d535b0800000000000000
+      internalID: -5389170188227642652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_43
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b5ee49624a1fc10800000000000000
+      internalID: 2085628588063611787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_44
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b929b61da8068a60800000000000000
+      internalID: 7675832154403187125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_45
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968375ce7af2246a0800000000000000
+      internalID: -6466553716679427991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_46
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848ddfe62919dba70800000000000000
+      internalID: 8844385301338904648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_47
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de39e0fe4c503f10800000000000000
+      internalID: 2247397708176899796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_48
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9578a91b7886a00800000000000000
+      internalID: 749998534828710360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_49
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 571
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd784a72f69c47650800000000000000
+      internalID: 6229825663803885531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7853e8c7a9c31650800000000000000
+      internalID: 6202522834286368891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f174e5c33abef90800000000000000
+      internalID: -6923260522476920949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_52
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 475
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f7bb4d9383595f0800000000000000
+      internalID: -750631941853970577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_53
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947e91f1c4b4d3e00800000000000000
+      internalID: 1026059080421730121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_54
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f096aebfba7bd5570800000000000000
+      internalID: 8457117624565393679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_55
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5693034d4e6686520800000000000000
+      internalID: 2695517509979748709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_56
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400b8278d8536c770800000000000000
+      internalID: 8630644617876385796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_57
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0fc23e97b3f3160800000000000000
+      internalID: 7007384939900235970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_58
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c711cfd38abf250800000000000000
+      internalID: 5979557914439941161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_59
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 475
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f301b7e9e9d1460800000000000000
+      internalID: 7214096581624086377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a6896a084d17a0800000000000000
+      internalID: -6404883885493671653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_61
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3138197ee75fcb0800000000000000
+      internalID: -4830815492241157138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_62
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5be57726833ac10800000000000000
+      internalID: 2063555049826465208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_63
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed240356895aeb90800000000000000
+      internalID: -7211853419827155484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_64
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8e1bda35786a220800000000000000
+      internalID: 2496831836889671860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_65
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c037c9f79c38f09c0800000000000000
+      internalID: -3958800645982751988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_66
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6852c9af54fc27e70800000000000000
+      internalID: 9111572895588164998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_67
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a3ded6a56605b0800000000000000
+      internalID: -5402518935606943744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_68
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4af2fbd85bfa4500800000000000000
+      internalID: 381393477532056143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_69
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 382
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195ad38af75928f10800000000000000
+      internalID: 2270541537664148881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464850bf07a168590800000000000000
+      internalID: -7672415842628959132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_71
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86a25a3ca484b5a0800000000000000
+      internalID: -6506429686395787638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_72
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b562b3deb4aac72e0800000000000000
+      internalID: -2126637680946370981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c9d34adfa1280b0800000000000000
+      internalID: -5727986099377300377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_74
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bae269a9565a1a20800000000000000
+      internalID: 3033832242081360563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_75
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a2da145e48cb430800000000000000
+      internalID: 3800058305778100812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_76
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ae122844da8f10800000000000000
+      internalID: 2272862368237003793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_77
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692b5f942bf9a7470800000000000000
+      internalID: 8393196443652174486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_78
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 291
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb5af691696ac650800000000000000
+      internalID: 6253926900423089133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_79
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 292
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe817d5cdafff570800000000000000
+      internalID: 8502790445866258107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 199
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90031cdfddec23a50800000000000000
+      internalID: 6499484665089437705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_81
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 199
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255d47226a45633e0800000000000000
+      internalID: -2074377505838148270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_82
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 199
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414dc6bb91512000800000000000000
+      internalID: 9378403460137280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_83
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150ae568b4bd283c0800000000000000
+      internalID: -4358680371917840303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_84
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee3801b83984460800000000000000
+      internalID: 7226187827602779766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_85
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1d5d49f619a1630800000000000000
+      internalID: 3898588335867023783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_86
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6131329d66a96d0800000000000000
+      internalID: -2982958720397142278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_87
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f03a27af5cbf9b0800000000000000
+      internalID: -5045221278082724043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_88
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a94f5e59e41a890800000000000000
+      internalID: -7448585902978983411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_89
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 198
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d282e5e8d1063b0800000000000000
+      internalID: -5521380645853975219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_90
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0cfb0a626afe410800000000000000
+      internalID: 1508607085028294818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_91
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79edce533f27d9ef0800000000000000
+      internalID: -99797227824947561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_92
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cadf6e10c54d2080800000000000000
+      internalID: -9210628971456111934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_93
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74553a8e7dc1260800000000000000
+      internalID: 7069762909237495741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_94
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996443a1351ab660800000000000000
+      internalID: 7402252240473581974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_95
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e230c40b70afb170800000000000000
+      internalID: 8196446297058718434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_96
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdbd930385be9bf0800000000000000
+      internalID: -315615349563343365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_97
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796e7a702be6be620800000000000000
+      internalID: 2804456903879943831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_98
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 108
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2341996479f9e0800000000000000
+      internalID: -1587109396913902206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_99
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 108
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259c2c7daac8177b0800000000000000
+      internalID: -5228243027008239278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nationalflags_100
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d9444adb3a24140800000000000000
+      internalID: 4702500995828325699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 69f2765f53560664ca90f2349becc6e7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

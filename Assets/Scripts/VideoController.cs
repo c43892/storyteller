@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.Video;
 
@@ -13,6 +14,8 @@ public class VideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public SpeechRecognizer recognizer;
+    public LanguageModelProvider languageModelProvider;
+    public Text TargetLangLabel;
     public VideoScript script;
     public float PassThreshold = 0.6f;
 
@@ -37,8 +40,7 @@ public class VideoController : MonoBehaviour
     void Start()
     {
         script.Load();
-        timeStamps = script.subTitles.Keys.ToArray().OrderBy((k) => k).ToArray();
-        nextTimePoint = 0;
+        TargetLang = languageModelProvider.defaultLanguage;
     }
 
     // Update is called once per frame
@@ -47,7 +49,7 @@ public class VideoController : MonoBehaviour
         if (videoPlayer.isPlaying && nextTimePoint < timeStamps.Length && videoPlayer.clockTime >= timeStamps[nextTimePoint])
         {
             videoPlayer.Pause();
-            var targetText = script.subTitles[timeStamps[nextTimePoint]];
+            var targetText = script.TargetSubTitle[timeStamps[nextTimePoint]];
             recognizer.vocabulary.wordList = 
                 new List<string>(targetText.Split(" ".ToCharArray(), System.StringSplitOptions.RemoveEmptyEntries));
             recognizer.StartRecognition();
@@ -61,7 +63,7 @@ public class VideoController : MonoBehaviour
         Debug.Log($"<color=green>{result.text}</color>");
         if (videoPlayer.isPaused && CompareSentences(
                 result.text.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries),
-                script.subTitles[timeStamps[nextTimePoint]].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)) >= PassThreshold)
+                script.TargetSubTitle[timeStamps[nextTimePoint]].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)) >= PassThreshold)
         {
             Debug.Log("recognition stopped");
             recognizer.StopRecognition();
@@ -79,5 +81,36 @@ public class VideoController : MonoBehaviour
         var matchRate = (float)matchCount / targetSentence.Length;
         Debug.Log($"<color=" + (matchRate >= PassThreshold ? "green" : "red") + $">{matchRate}</color>");
         return matchRate;
+    }
+
+    public void SwitchLang()
+    {
+        if (TargetLang == SystemLanguage.English)
+        {
+            TargetLang = SystemLanguage.ChineseSimplified;
+            TargetLangLabel.text = "cn";
+        }
+        else
+        {
+            TargetLang = SystemLanguage.English;
+            TargetLangLabel.text = "en";
+        }
+    }
+
+    public SystemLanguage TargetLang
+    {
+        get => script.TargetLang;
+        set
+        {
+            script.TargetLang = value;
+            nextTimePoint = 0;
+            timeStamps = script.TargetSubTitle.Keys.ToArray().OrderBy((k) => k).ToArray();
+            languageModelProvider.LoadLanguageModel(value);
+            recognizer.StopRecognition();
+            recognizer.vocabulary.wordList.Clear();
+            videoPlayer.Stop();
+            onRecognitionStopped?.Invoke();
+            videoPlayer.Play();
+        }
     }
 }

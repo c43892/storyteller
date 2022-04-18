@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 46829ee5c37247840b77438f6e38bb7d
+  m_SerializeEntries:
+  - m_GUID: b4c550a96435f0544a29ae15f3d0a47f
+    m_Address: stories/CaterpillarShoes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3beda421a6598e4f98c65701de41108
+    m_Address: category.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26d950abf61ffee4d94fc5e4db101d34, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 63275e5078563b643999386d7cad141a, type: 2}
+    - {fileID: 11400000, guid: 094714bfb81dcd349a94dd95558833d0, type: 2}
