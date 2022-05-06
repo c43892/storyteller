@@ -141,7 +141,7 @@ namespace Recognissimo.Components
 
                     if (!_clip.GetData(samples, _lastPos))
                     {
-                        Debug.LogError("Cannot access microphone data. Make sure you are not using the microphone elsewhere in your project");
+                        // Debug.LogError("Cannot access microphone data. Make sure you are not using the microphone elsewhere in your project");
                     }
 
                     for (var i = 0; i < samplesLength; i++)

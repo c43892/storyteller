@@ -21,8 +21,12 @@ MonoBehaviour:
     m_Address: stories/CaterpillarShoes
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: f3beda421a6598e4f98c65701de41108
-    m_Address: category.txt
+  - m_GUID: ce71218ae6e359141a4460d406f1de11
+    m_Address: stories/storyList
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 14c11b13983c31e4a8f4e052ad4de634
+    m_Address: stories/CaterpillarShoes1
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
