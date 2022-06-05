@@ -8,6 +8,7 @@ public class SelectingView : MonoBehaviour
     public StoryPreview PreviewModel;
     public StoryPreview[] AllPreviews;
     public ReadingView ReadingView;
+    public LangSel LangSeView;
     public GameObject BtnStartPlaying;
 
     public SystemLanguage CurrentLanguage { get; private set; }
@@ -35,5 +36,6 @@ public class SelectingView : MonoBehaviour
         ReadingView.gameObject.SetActive(true);
         ReadingView.Play(CurrentStory, CurrentLanguage);
         gameObject.SetActive(false);
+        LangSeView.SelectedLang = SystemLanguage.Unknown;
     }
 }

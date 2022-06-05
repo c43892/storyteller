@@ -19,14 +19,20 @@ public class VideoController : MonoBehaviour
     public VideoPlayer videoPlayer;
     public SpeechRecognizer recognizer;
     public LanguageModelProvider languageModelProvider;
-    public Text TargetLangLabel;
     public VideoScript script;
-    public float PassThreshold = 0.6f;
+    public PauseRecognitionButton pauseRecognition;
 
     [Serializable]
     public struct RecognitionTarget
     {
+        public bool asianLanguage;
         public string text;
+
+        public static RecognitionTarget Default = new RecognitionTarget() { text = null, asianLanguage = false };
+        public static bool operator == (RecognitionTarget a, RecognitionTarget b) => a.text == b.text && a.asianLanguage == b.asianLanguage;
+        public static bool operator != (RecognitionTarget a, RecognitionTarget b) => !(a == b);
+        public override bool Equals(object obj) => this == (RecognitionTarget)obj;
+        public override int GetHashCode() => text != null ? (text + asianLanguage.ToString()).GetHashCode() : 0;
     }
 
     [Serializable]
@@ -35,12 +41,18 @@ public class VideoController : MonoBehaviour
     }
 
     public RecognitionStartEvent onRecognitionStarted = null;
+    public UnityEvent<int> onPartialResult = null;
     public UnityEvent onRecognitionStopped = null;
 
     double[] timeStamps = null;
     int nextTimePoint = 0;
 
-    public void LoadAndStart(string storyName, SystemLanguage lang)
+    private void Start()
+    {
+        pauseRecognition.gameObject.SetActive(false);
+    }
+
+    public void LoadAndStartPlaying(string storyName, SystemLanguage lang)
     {
         TargetLang = lang;
         script.LoadScript(storyName, (lang == SystemLanguage.ChineseSimplified || lang == SystemLanguage.ChineseTraditional), () =>
@@ -53,6 +65,19 @@ public class VideoController : MonoBehaviour
         });
     }
 
+    public void StopPlaying()
+    {
+        videoPlayer.Stop();
+        recognizer.vocabulary.wordList.Clear();
+        recognizer.StopRecognition();
+
+        // clear target texture content
+        RenderTexture rt = RenderTexture.active;
+        UnityEngine.RenderTexture.active = videoPlayer.targetTexture;
+        GL.Clear(true, true, Color.black);
+        UnityEngine.RenderTexture.active = rt;
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -61,10 +86,10 @@ public class VideoController : MonoBehaviour
         {
             videoPlayer.Pause();
             var targetText = script.TargetSubTitle[timeStamps[nextTimePoint]];
-            recognizer.vocabulary.wordList = 
-                new List<string>(targetText.Split(" ".ToCharArray(), System.StringSplitOptions.RemoveEmptyEntries));
+            recognizer.vocabulary.wordList = new List<string>(targetText.Split(" ".ToCharArray(), System.StringSplitOptions.RemoveEmptyEntries));
             recognizer.StartRecognition();
-            onRecognitionStarted?.Invoke(new RecognitionTarget() { text = targetText });
+            onRecognitionStarted?.Invoke(new RecognitionTarget() { text = targetText, asianLanguage = script.AsianLanguage });
+            pauseRecognition.gameObject.SetActive(true);
             Debug.Log("recognition started for: " + targetText);
         }
     }
@@ -82,48 +107,50 @@ public class VideoController : MonoBehaviour
         videoPlayer.Play();
     }
 
-    private void VideoPlayer_prepareCompleted()
+    string[] recognaizedPart = null;
+    public void OnPartialResult(PartialResult result)
     {
-        throw new NotImplementedException();
-    }
+        if (pauseRecognition.Pressed)
+            return;
 
-    public void OnResult(Result result)
-    {
-        Debug.Log($"<color=green>{result.text}</color>");
-        if (videoPlayer.isPaused && CompareSentences(
-                result.text.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries),
-                script.TargetSubTitle[timeStamps[nextTimePoint]].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)) >= PassThreshold)
+        var str = result.partial;
+        Debug.Log($"<color=yellow>{str}</color>");
+
+        if (videoPlayer.isPaused)
         {
-            Debug.Log("recognition stopped");
-            recognizer.StopRecognition();
+            if (recognaizedPart == null)
+                recognaizedPart = str.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToArray();
+            else
+                recognaizedPart = recognaizedPart.Concat(str.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)).ToArray();
 
-            nextTimePoint++;
-            onRecognitionStopped?.Invoke();
-            videoPlayer.Play();
+            var targetSentence = script.TargetSubTitle[timeStamps[nextTimePoint]].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            var matchCount = SentenceMatchCount(recognaizedPart, targetSentence);
+            recognaizedPart = targetSentence.Take(matchCount).ToArray();
+
+            Debug.Log("partially matched: " + matchCount + ":" + recognaizedPart);
+            onPartialResult?.Invoke(matchCount);
+
+            if (matchCount == targetSentence.Length)
+                Move2Next();
         }
     }
 
-    public float CompareSentences(string[] recognitionResult, string[] targetSentence)
+    public void Move2Next()
+    {
+        Debug.Log("recognition stopped");
+        recognaizedPart = null;
+        recognizer.StopRecognition();
+        onRecognitionStopped?.Invoke();
+        pauseRecognition.gameObject.SetActive(false);
+
+        nextTimePoint++;
+        videoPlayer.Play();
+    }
+
+    public int SentenceMatchCount(string[] recognitionResult, string[] targetSentence)
     {
         MyersDiff<string> diff = new MyersDiff<string>(recognitionResult, targetSentence, StringComparer.OrdinalIgnoreCase);
-        var matchCount = diff.GetResult().Count(rt => rt.ResultType == ResultType.Both);
-        var matchRate = (float)matchCount / targetSentence.Length;
-        Debug.Log($"<color=" + (matchRate >= PassThreshold ? "green" : "red") + $">{matchRate}</color>");
-        return matchRate;
-    }
-
-    public void SwitchLang()
-    {
-        if (TargetLang == SystemLanguage.English)
-        {
-            TargetLang = SystemLanguage.ChineseSimplified;
-            TargetLangLabel.text = "cn";
-        }
-        else
-        {
-            TargetLang = SystemLanguage.English;
-            TargetLangLabel.text = "en";
-        }
+        return diff.GetResult().Count(rt => rt.ResultType == ResultType.Both);
     }
 
     public SystemLanguage TargetLang

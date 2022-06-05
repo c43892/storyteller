@@ -12,7 +12,7 @@ public class VideoScript : MonoBehaviour
     public SystemLanguage TargetLang { get; set; }
 
     readonly Dictionary<double, string> subTitles = new Dictionary<double, string>();
-
+    public bool AsianLanguage { get; private set; }
 
     public Dictionary<double, string> TargetSubTitle
     {
@@ -25,6 +25,7 @@ public class VideoScript : MonoBehaviour
 
         Addressables.LoadAssetAsync<TextAsset>("stories/" + storyName + "/" + TargetLang.ToString() + ".txt").Completed += (AsyncOperationHandle<TextAsset> obj) =>
         {
+            AsianLanguage = asianLanguage;
             var scriptText = obj.Result.text;
             foreach (var line in scriptText.Split("\r\n".ToCharArray(), System.StringSplitOptions.RemoveEmptyEntries))
             {
