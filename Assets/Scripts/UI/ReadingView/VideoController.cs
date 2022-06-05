@@ -21,6 +21,7 @@ public class VideoController : MonoBehaviour
     public LanguageModelProvider languageModelProvider;
     public VideoScript script;
     public PauseRecognitionButton pauseRecognition;
+    public readonly float PassThreshold = 0.8f;
 
     [Serializable]
     public struct RecognitionTarget
@@ -55,6 +56,8 @@ public class VideoController : MonoBehaviour
     public void LoadAndStartPlaying(string storyName, SystemLanguage lang)
     {
         TargetLang = lang;
+        ClearVideoTexture();
+
         script.LoadScript(storyName, (lang == SystemLanguage.ChineseSimplified || lang == SystemLanguage.ChineseTraditional), () =>
         {
             Addressables.LoadAssetAsync<VideoClip>("stories/" + storyName + "/video.mp4").Completed += (AsyncOperationHandle<VideoClip> obj) =>
@@ -71,6 +74,11 @@ public class VideoController : MonoBehaviour
         recognizer.vocabulary.wordList.Clear();
         recognizer.StopRecognition();
 
+        ClearVideoTexture();
+    }
+
+    public void ClearVideoTexture()
+    {
         // clear target texture content
         RenderTexture rt = RenderTexture.active;
         UnityEngine.RenderTexture.active = videoPlayer.targetTexture;
@@ -130,7 +138,7 @@ public class VideoController : MonoBehaviour
             Debug.Log("partially matched: " + matchCount + ":" + recognaizedPart);
             onPartialResult?.Invoke(matchCount);
 
-            if (matchCount == targetSentence.Length)
+            if (matchCount >= targetSentence.Length * PassThreshold)
                 Move2Next();
         }
     }

@@ -25,8 +25,8 @@ MonoBehaviour:
     m_Address: stories/storyList
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 14c11b13983c31e4a8f4e052ad4de634
-    m_Address: stories/CaterpillarShoes1
+  - m_GUID: cf3499627ee8ac742bbc31d2d27e2678
+    m_Address: stories/PeteTheCat
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
