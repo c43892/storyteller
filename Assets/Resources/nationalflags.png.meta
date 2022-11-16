@@ -327,6 +327,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2560,6 +2561,108 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      nationalflags_52: -750631941853970577
+      nationalflags_6: -5317487589781921293
+      nationalflags_4: -50340298963136383
+      nationalflags_21: -4135020739358473652
+      nationalflags_54: 8457117624565393679
+      nationalflags_0: 5571062580097577563
+      nationalflags_3: -1326447464527493389
+      nationalflags_23: 1286694811314663878
+      nationalflags_76: 2272862368237003793
+      nationalflags_27: -104729010285322344
+      nationalflags_78: 6253926900423089133
+      nationalflags_36: -5483628990529471696
+      nationalflags_59: 7214096581624086377
+      nationalflags_14: 3316392785460390181
+      nationalflags_87: -5045221278082724043
+      nationalflags_16: -1943389925437626182
+      nationalflags_12: 2789992231067979195
+      nationalflags_88: -7448585902978983411
+      nationalflags_69: 2270541537664148881
+      nationalflags_5: -2755774713003881295
+      nationalflags_37: 8100816564201352755
+      nationalflags_7: -6229975843263347658
+      nationalflags_46: 8844385301338904648
+      nationalflags_10: 8577761409802876609
+      nationalflags_2: 4571047363450855448
+      nationalflags_26: 4398942676442480973
+      nationalflags_47: 2247397708176899796
+      nationalflags_28: 1635976842867081266
+      nationalflags_33: -6485969721623031184
+      nationalflags_74: 3033832242081360563
+      nationalflags_75: 3800058305778100812
+      nationalflags_62: 2063555049826465208
+      nationalflags_24: -94999039802056250
+      nationalflags_38: -3374384407010439485
+      nationalflags_98: -1587109396913902206
+      nationalflags_56: 8630644617876385796
+      nationalflags_25: 3656910063607967851
+      nationalflags_67: -5402518935606943744
+      nationalflags_57: 7007384939900235970
+      nationalflags_92: -9210628971456111934
+      nationalflags_43: 2085628588063611787
+      nationalflags_64: 2496831836889671860
+      nationalflags_11: -6746748703020543390
+      nationalflags_50: 6202522834286368891
+      nationalflags_66: 9111572895588164998
+      nationalflags_91: -99797227824947561
+      nationalflags_79: 8502790445866258107
+      nationalflags_53: 1026059080421730121
+      nationalflags_30: -3938106538114164422
+      nationalflags_71: -6506429686395787638
+      nationalflags_31: 661917095047761048
+      nationalflags_35: -4315107068897888551
+      nationalflags_40: -2477867253381086300
+      nationalflags_63: -7211853419827155484
+      nationalflags_9: 6209280265833553234
+      nationalflags_58: 5979557914439941161
+      nationalflags_70: -7672415842628959132
+      nationalflags_34: -5392713091746190622
+      nationalflags_1: -1737466553107568946
+      nationalflags_99: -5228243027008239278
+      nationalflags_17: -252121692539432708
+      nationalflags_45: -6466553716679427991
+      nationalflags_72: -2126637680946370981
+      nationalflags_8: 3887721509588107345
+      nationalflags_84: 7226187827602779766
+      nationalflags_96: -315615349563343365
+      nationalflags_73: -5727986099377300377
+      nationalflags_51: -6923260522476920949
+      nationalflags_32: 2693979450898176242
+      nationalflags_61: -4830815492241157138
+      nationalflags_29: -3428304598181853258
+      nationalflags_80: 6499484665089437705
+      nationalflags_39: 1961195414419739016
+      nationalflags_90: 1508607085028294818
+      nationalflags_60: -6404883885493671653
+      nationalflags_82: 9378403460137280
+      nationalflags_83: -4358680371917840303
+      nationalflags_100: 4702500995828325699
+      nationalflags_15: -4166065411914784512
+      nationalflags_41: -2333203910487619270
+      nationalflags_86: -2982958720397142278
+      nationalflags_89: -5521380645853975219
+      nationalflags_65: -3958800645982751988
+      nationalflags_49: 6229825663803885531
+      nationalflags_81: -2074377505838148270
+      nationalflags_85: 3898588335867023783
+      nationalflags_42: -5389170188227642652
+      nationalflags_93: 7069762909237495741
+      nationalflags_48: 749998534828710360
+      nationalflags_95: 8196446297058718434
+      nationalflags_77: 8393196443652174486
+      nationalflags_18: -5235249373454330489
+      nationalflags_20: 6114209494732738068
+      nationalflags_22: 6379837946807175477
+      nationalflags_97: 2804456903879943831
+      nationalflags_55: 2695517509979748709
+      nationalflags_68: 381393477532056143
+      nationalflags_19: 5390531721249841590
+      nationalflags_94: 7402252240473581974
+      nationalflags_13: 5125475789267784317
+      nationalflags_44: 7675832154403187125
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

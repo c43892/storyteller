@@ -29,6 +29,26 @@ MonoBehaviour:
     m_Address: stories/PeteTheCat
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 693fb7af9671e00419cd52eb2cfbcafb
+    m_Address: stories/Goodbye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbbd71dbf5f3d514f9cfae7621e33e5d
+    m_Address: stories/LePapillon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87872ee1fa374c240b9bf35fd18cce41
+    m_Address: stories/DesperatedHousewifeS01E01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ba7eb9c8d143224b857d5279a674193
+    m_Address: stories/DesperatedHousewifeS01E02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb2c0cc792781024688e2ec067612d96
+    m_Address: stories/DesperatedHousewifeS01E03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 26d950abf61ffee4d94fc5e4db101d34, type: 2}
   m_SchemaSet:

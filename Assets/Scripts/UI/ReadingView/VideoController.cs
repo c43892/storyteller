@@ -21,7 +21,10 @@ public class VideoController : MonoBehaviour
     public LanguageModelProvider languageModelProvider;
     public VideoScript script;
     public PauseRecognitionButton pauseRecognition;
-    public readonly float PassThreshold = 0.8f;
+    public Button repeatButton;
+    public Button skipButton;
+    public readonly float PassThreshold = 1;
+    public Text videoTimeText = null;
 
     [Serializable]
     public struct RecognitionTarget
@@ -37,20 +40,24 @@ public class VideoController : MonoBehaviour
     }
 
     [Serializable]
-    public class RecognitionStartEvent : UnityEvent<RecognitionTarget>
+    public class RecognitionEvent : UnityEvent<RecognitionTarget>
     {
     }
 
-    public RecognitionStartEvent onRecognitionStarted = null;
+    public UnityEvent<string> onSubtitlePlayingStarted = null;
+    public RecognitionEvent onRecognitionStarted = null;
     public UnityEvent<int> onPartialResult = null;
     public UnityEvent onRecognitionStopped = null;
 
-    double[] timeStamps = null;
+    double[] timeStampsEnd = null;
+    double[] timeStampStart = null;
     int nextTimePoint = 0;
 
     private void Start()
     {
         pauseRecognition.gameObject.SetActive(false);
+        repeatButton.gameObject.SetActive(false);
+        skipButton.gameObject.SetActive(false);
     }
 
     public void LoadAndStartPlaying(string storyName, SystemLanguage lang)
@@ -58,7 +65,7 @@ public class VideoController : MonoBehaviour
         TargetLang = lang;
         ClearVideoTexture();
 
-        script.LoadScript(storyName, (lang == SystemLanguage.ChineseSimplified || lang == SystemLanguage.ChineseTraditional), () =>
+        script.LoadSubtitle(storyName, (lang == SystemLanguage.ChineseSimplified || lang == SystemLanguage.ChineseTraditional), () =>
         {
             Addressables.LoadAssetAsync<VideoClip>("stories/" + storyName + "/video.mp4").Completed += (AsyncOperationHandle<VideoClip> obj) =>
             {
@@ -88,24 +95,42 @@ public class VideoController : MonoBehaviour
 
 
     // Update is called once per frame
+    bool inSeekingBack = false;
     void Update()
     {
-        if (videoPlayer.isPlaying && nextTimePoint < timeStamps.Length && videoPlayer.clockTime >= timeStamps[nextTimePoint])
+        if (!inSeekingBack && videoPlayer.isPlaying && nextTimePoint < timeStampsEnd.Length && videoPlayer.time >= timeStampsEnd[nextTimePoint])
         {
             videoPlayer.Pause();
-            var targetText = script.TargetSubTitle[timeStamps[nextTimePoint]];
+            var targetText = script.SubTitleEndtime[timeStampsEnd[nextTimePoint]];
             recognizer.vocabulary.wordList = new List<string>(targetText.Split(" ".ToCharArray(), System.StringSplitOptions.RemoveEmptyEntries));
             recognizer.StartRecognition();
             onRecognitionStarted?.Invoke(new RecognitionTarget() { text = targetText, asianLanguage = script.AsianLanguage });
             pauseRecognition.gameObject.SetActive(true);
-            Debug.Log("recognition started for: " + targetText);
+            repeatButton.gameObject.SetActive(true);
+            skipButton.gameObject.SetActive(true);
+            // Debug.Log("recognition started for: " + targetText);
         }
+        else if (!inSeekingBack && videoPlayer.isPlaying && nextTimePoint < timeStampsEnd.Length && videoPlayer.time >= timeStampStart[nextTimePoint])
+        {
+            var targetText = script.SubTitleStarttime[timeStampStart[nextTimePoint]];
+            onSubtitlePlayingStarted?.Invoke(targetText);
+        }
+
+        var secs = videoPlayer.time;
+        var min = (int)(secs / 60);
+        var sec = (int)(secs % 60);
+        var ms = (int)((secs - min * 60 - sec) * 100);
+        videoTimeText.text = min.ToString().PadLeft(2, '0')
+            + ":" + sec.ToString().PadLeft(2, '0')
+            + "." + ms.ToString().PadLeft(2, '0');
     }
 
     void RestartVideo()
     {
+        inSeekingBack = false;
         nextTimePoint = 0;
-        timeStamps = script.TargetSubTitle.Keys.ToArray().OrderBy((k) => k).ToArray();
+        timeStampsEnd = script.SubTitleEndtime.Keys.ToArray().OrderBy((k) => k).ToArray();
+        timeStampStart = script.SubTitleStarttime.Keys.ToArray().OrderBy((k) => k).ToArray();
         languageModelProvider.LoadLanguageModel(TargetLang);
         recognizer.StopRecognition();
         recognizer.vocabulary.wordList.Clear();
@@ -122,7 +147,7 @@ public class VideoController : MonoBehaviour
             return;
 
         var str = result.partial;
-        Debug.Log($"<color=yellow>{str}</color>");
+        // Debug.Log($"<color=yellow>{str}</color>");
 
         if (videoPlayer.isPaused)
         {
@@ -131,28 +156,69 @@ public class VideoController : MonoBehaviour
             else
                 recognaizedPart = recognaizedPart.Concat(str.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)).ToArray();
 
-            var targetSentence = script.TargetSubTitle[timeStamps[nextTimePoint]].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            var targetSentence = script.SubTitleEndtime[timeStampsEnd[nextTimePoint]].Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             var matchCount = SentenceMatchCount(recognaizedPart, targetSentence);
             recognaizedPart = targetSentence.Take(matchCount).ToArray();
 
-            Debug.Log("partially matched: " + matchCount + ":" + recognaizedPart);
+            // recognizer.vocabulary.wordList = targetSentence.TakeLast(targetSentence.Length - matchCount).ToList();
+
+            // Debug.Log("partially matched: " + matchCount + ":" + recognaizedPart);
             onPartialResult?.Invoke(matchCount);
 
             if (matchCount >= targetSentence.Length * PassThreshold)
-                Move2Next();
+                StartCoroutine(Move2Next());
         }
     }
 
-    public void Move2Next()
+    public IEnumerator Move2Next()
     {
-        Debug.Log("recognition stopped");
-        recognaizedPart = null;
+        // Debug.Log("recognition stopped");
         recognizer.StopRecognition();
         onRecognitionStopped?.Invoke();
-        pauseRecognition.gameObject.SetActive(false);
 
+        yield return new WaitForSeconds(0.75f);
+        recognaizedPart = null;
+        pauseRecognition.gameObject.SetActive(false);
+        repeatButton.gameObject.SetActive(false);
+        skipButton.gameObject.SetActive(false);
         nextTimePoint++;
         videoPlayer.Play();
+    }
+
+    public void Jump2Previous()
+    {
+        if (videoPlayer.isPlaying) // only work on pause time
+            return;
+
+        recognizer.StopRecognition();
+        onRecognitionStopped?.Invoke();
+
+        recognaizedPart = null;
+        pauseRecognition.gameObject.SetActive(false);
+        repeatButton.gameObject.SetActive(false);
+        skipButton.gameObject.SetActive(false);
+
+        // nextTimePoint = nextTimePoint < 1 ? 0 : nextTimePoint - 1;
+        var targetTimeStamp = timeStampStart[nextTimePoint];
+        StartCoroutine(Wait4VideoSeekingBack(targetTimeStamp));
+    }
+
+    public void SkipCurrentSentence()
+    {
+        StartCoroutine(Move2Next());
+    }
+
+    IEnumerator Wait4VideoSeekingBack(double targetTimeStamp)
+    {
+        inSeekingBack = true;
+
+        videoPlayer.time = targetTimeStamp;
+        videoPlayer.Play();
+
+        if (videoPlayer.time > targetTimeStamp)
+            yield return new WaitForSeconds(0.5f);
+
+        inSeekingBack = false;
     }
 
     public int SentenceMatchCount(string[] recognitionResult, string[] targetSentence)
