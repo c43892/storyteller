@@ -10,7 +10,8 @@ using UnityEngine.Video;
 
 public class ResourceManager : MonoBehaviour
 {
-    public readonly static string wordPronUrl = "https://ssl.gstatic.com/dictionary/static/sounds/oxford/{0}--_us_1.mp3";
+    // public readonly static string wordPronUrl = "https://ssl.gstatic.com/dictionary/static/sounds/oxford/{0}--_us_1.mp3";
+    public readonly static string wordPronUrl = "https://dict.youdao.com/dictvoice?type=0&audio={0}";
     public readonly static string wordPronSavingPath = Path.Combine(Application.persistentDataPath, "{0}.mp3");
     public readonly static string wordPronLoaingPath = Path.Combine("file://" + Application.persistentDataPath, "{0}.mp3");
 

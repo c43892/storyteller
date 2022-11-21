@@ -80,9 +80,9 @@ public class VideoScript : MonoBehaviour
                             .Replace('(', ' ').Replace(')', ' ')
                             .Replace('[', ' ').Replace(']', ' ')
                             .Replace('?', ' ').Replace('-', ' ')
-                            .Replace('—', ' ').Replace('\'', ' ')
                             .Replace('“', ' ').Replace('”', ' ')
-                            .Replace('"', ' ').Replace(';', ' ');
+                            .Replace('"', ' ').Replace(';', ' ')
+                            .Replace('—', ' ');
 
                         if (asianLanguage)
                         {
