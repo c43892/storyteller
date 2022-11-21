@@ -37,6 +37,8 @@ public class VideoScript : MonoBehaviour
         // Addressables.LoadAssetAsync<TextAsset>("stories/" + storyName + "/" + TargetLang.ToString() + ".srt").Completed += (AsyncOperationHandle<TextAsset> obj) =>
         {
             AsianLanguage = asianLanguage;
+            var combine2Lines = false;
+
             // var scriptText = obj.Result.text;
             using (StreamReader r = new(new MemoryStream(Encoding.UTF8.GetBytes(scriptText))))
             {
@@ -50,6 +52,10 @@ public class VideoScript : MonoBehaviour
                         offsetStr = offsetStr.Replace(",", ".").Trim();
                         startTimeOffset = System.TimeSpan.Parse(offsetStr).TotalSeconds;
                     }
+                    else if (line == "combine 2 lines")
+                    {
+                        combine2Lines = true;
+                    }
                     else if (line.Contains("-->")) // starts with timestamp
                     {
                         var es = line.Split("-->".ToArray(), StringSplitOptions.RemoveEmptyEntries);
@@ -59,9 +65,25 @@ public class VideoScript : MonoBehaviour
                         var dstLang = r.ReadLine().Trim();
                         if (dstLang == "") continue;
                         var srcLang = r.ReadLine().Trim();
-                        if (srcLang == "") continue;
 
-                        var text = srcLang.Replace(',', ' ').Replace('.', ' ').Replace('!', ' ').Replace('?', ' ').Replace('-', ' ');
+                        if (combine2Lines)
+                        {
+                            srcLang = dstLang + " " + srcLang;
+                            dstLang = "";
+                        }
+
+                        var text = srcLang.Replace(',', ' ')
+                            .Replace('.', ' ').Replace('!', ' ')
+                            .Replace(':', ' ').Replace('%', ' ')
+                            .Replace('#', ' ').Replace('$', ' ')
+                            .Replace('@', ' ').Replace('*', ' ')
+                            .Replace('(', ' ').Replace(')', ' ')
+                            .Replace('[', ' ').Replace(']', ' ')
+                            .Replace('?', ' ').Replace('-', ' ')
+                            .Replace('—', ' ').Replace('\'', ' ')
+                            .Replace('“', ' ').Replace('”', ' ')
+                            .Replace('"', ' ').Replace(';', ' ');
+
                         if (asianLanguage)
                         {
                             var chars = text.ToCharArray().Select(c => c + " ");

@@ -17,24 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 46829ee5c37247840b77438f6e38bb7d
   m_SerializeEntries:
-  - m_GUID: b4c550a96435f0544a29ae15f3d0a47f
-    m_Address: stories/CaterpillarShoes
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: ce71218ae6e359141a4460d406f1de11
     m_Address: stories/storyList
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: cf3499627ee8ac742bbc31d2d27e2678
-    m_Address: stories/PeteTheCat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 693fb7af9671e00419cd52eb2cfbcafb
-    m_Address: stories/Goodbye
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: fbbd71dbf5f3d514f9cfae7621e33e5d
-    m_Address: stories/LePapillon
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 87872ee1fa374c240b9bf35fd18cce41
@@ -47,6 +31,14 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: fb2c0cc792781024688e2ec067612d96
     m_Address: stories/DesperatedHousewifeS01E03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76ab3c933510a4d4a8c88814bd3be389
+    m_Address: stories/Ted001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 614b3599dc0d89546b4d775f42438235
+    m_Address: stories/Ted002
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
